@@ -1,0 +1,85 @@
+body{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------ Video Backgroud com Iframe ------------------------------------ */
+.video-container{
+    width: 100vw;
+    height: 100vh;
+    
+  }
+
+  iframe {
+    z-index: -3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+
+  } 
+
+    @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* height = 100 * (9 / 16) = 56.25 */
+      height: 56.25vw;
+    }
+} 
+
+ @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* width = 100 / (9 / 16) = 177.777777 */
+      width: 177.78vh;
+    }
+  } 
+/* ----------------------------------------------------------------------------------------------*/
+.nome{
+    margin-top: -10%;
+    font-style: italic;
+    font-size: 20px;
+    z-index: -2;
+    text-align:center;
+}
+
+
+
+.btn1{
+    text-align:center;
+    z-index: -1;
+    
+}
+
+#btn{
+    background-color: #E1B690;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; 
+    margin-top: 7%;
+    margin-left: -1%;
+}
+#btn:hover{
+    background-color: #a2764a;
+    color: black;
+}
+
+.logo{
+    z-index: 1;
+}
+.lg{
+    margin-top: -5%;
+    margin-left: 22%;
+    width: 55%;
+    height: 55%;
+    align-items: center;
+    text-align: center;
+}
+
+ 
+
+
