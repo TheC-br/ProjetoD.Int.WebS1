@@ -1,6 +1,7 @@
 body{
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /*------------------------------------ Video Backgroud com Iframe ------------------------------------ */
@@ -35,15 +36,6 @@ body{
     }
   } 
 /* ----------------------------------------------------------------------------------------------*/
-.nome{
-    margin-top: -10%;
-    font-style: italic;
-    font-size: 20px;
-    z-index: -2;
-    text-align:center;
-}
-
-
 
 .btn1{
     text-align:center;
@@ -52,7 +44,7 @@ body{
 }
 
 #btn{
-    background-color: #E1B690;
+    background-color: #F9B042;
     border-radius: 10px;
     color: white;
     padding: 10px 35px;
@@ -60,24 +52,12 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px; 
-    margin-top: 7%;
+    margin-top: 40%;
     margin-left: -1%;
 }
 #btn:hover{
-    background-color: #a2764a;
+    background-color: #e48220;
     color: black;
-}
-
-.logo{
-    z-index: 1;
-}
-.lg{
-    margin-top: -5%;
-    margin-left: 22%;
-    width: 55%;
-    height: 55%;
-    align-items: center;
-    text-align: center;
 }
 
  
